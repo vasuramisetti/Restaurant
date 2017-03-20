@@ -12,25 +12,32 @@ public class Menu {
 	
 	public Menu(){
 		items = new ArrayList<Item>();
+
 	}
 	public void setItems(List<Item> items){
 		this.items = items;
 	}
+	
 	public List<Item> getItems(){
 		return this.items;
 	}
+	
 	public void setStartTime(Date startTime){
 		this.startTime = startTime;
 	}
+	
 	public Date getStartTime(){
 		return this.startTime;
 	}
+	
 	public void setEndTime(Date endTime){
 		this.endTime = endTime;
 	}
+	
 	public Date getEndTime(){
 		return this.endTime;
 	}
+	
 	public void addItem(Item item){
 		this.items.add(item);
 	}
