@@ -6,6 +6,23 @@ public class Item {
 	private String category;
 	private String type;
 	
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+	public void setType(String type) {
+		this.type = type;
+	}
 	public String getName() {
 		return this.name;
 	}
@@ -26,6 +43,9 @@ public class Item {
 		this.category=category;
 		this.type=type;
 		
+		
+	}
+	public Item() {
 		
 	}
 	

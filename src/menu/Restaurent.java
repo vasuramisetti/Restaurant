@@ -1,6 +1,6 @@
 package menu;
 
-public class Restaurant {
+public class Restaurent {
 
 	private String name;
 	private long phoneNumberL;
@@ -8,7 +8,7 @@ public class Restaurant {
 	private String webSiteName;
 	private String address;
 	
-		public Restaurant(String name, long phoneNumberL, String email, String webSiteName, String address) {
+		public Restaurent(String name, long phoneNumberL, String email, String webSiteName, String address) {
 		this.name = name;
 		this.phoneNumberL = phoneNumberL;
 		this.email = email;
@@ -55,11 +55,6 @@ public class Restaurant {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
-	
-	
-	
 	
 	
 	
