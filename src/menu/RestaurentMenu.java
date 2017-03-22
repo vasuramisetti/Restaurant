@@ -32,7 +32,7 @@ public class RestaurentMenu {
 		
 		
 		for(Item item: items){
-			if (item.getCategory() == "starters") {
+			if (item.getCategory().equals("starters")) {
 				breakfast.addItem(item);
 				
 				
@@ -51,14 +51,22 @@ public class RestaurentMenu {
 		
 		
 	List<Item> items2 = breakfast.getItems();
-	
+	breakfast.getItems();
 	for(Item item2: items2){
-		
-		System.out.println(item2.getName());
-		
+			
+			System.out.println(item2.getName());
 		}
+
+		
+			
 		
 		
 	}
+		
 
-}
+	
+	
+		
+	}
+
+y
