@@ -55,14 +55,9 @@ public class RestaurentMenu {
 	for(Item item2: items2){
 		
 		System.out.println(item2.getName());
-			
 		
+		}
 		
-	}
-		
-
-	
-	
 		
 	}
 
